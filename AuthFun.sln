@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthFun.Data", "Source\AuthFun.Data\AuthFun.Data.csproj", "{6BC7D67F-7F4A-4D5B-AADB-492449F071C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthFun.Web", "Source\AuthFun.Web\AuthFun.Web.csproj", "{B52ACBFF-8685-4B4F-899E-953DBB0D6BD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthFun.Entities", "Source\AuthFun.Entities\AuthFun.Entities.csproj", "{55B31A4B-BD57-4E0C-9B3D-A5458789D13B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BC7D67F-7F4A-4D5B-AADB-492449F071C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BC7D67F-7F4A-4D5B-AADB-492449F071C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BC7D67F-7F4A-4D5B-AADB-492449F071C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BC7D67F-7F4A-4D5B-AADB-492449F071C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B52ACBFF-8685-4B4F-899E-953DBB0D6BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52ACBFF-8685-4B4F-899E-953DBB0D6BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52ACBFF-8685-4B4F-899E-953DBB0D6BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52ACBFF-8685-4B4F-899E-953DBB0D6BD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B31A4B-BD57-4E0C-9B3D-A5458789D13B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B31A4B-BD57-4E0C-9B3D-A5458789D13B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B31A4B-BD57-4E0C-9B3D-A5458789D13B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B31A4B-BD57-4E0C-9B3D-A5458789D13B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
